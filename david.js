@@ -13,8 +13,10 @@ console.log(ev)
 let index = 0;
 toltendo.forEach(panel => {
     index++;
+    console.log(panel)
     if (panel.Ev == ev){
-        document.getElementById("body").innerHTML += `    
+        
+    document.getElementById("body").innerHTML += `    
     <div class="col-12 piros_nagy_cim evcim"><div>${panel.Datum}</div></div>
     
     <div class="col-sm-6 col-12 szoveg">
@@ -41,7 +43,6 @@ toltendo.forEach(panel => {
     </div>`
 
 
-    }
     for (let i = 0 ; i < panel.kepurl.length; i++){
         if (i == 0){
             document.getElementById(`${index}kep`).innerHTML +=`<div class="carousel-item active">
@@ -53,6 +54,7 @@ toltendo.forEach(panel => {
             <img  src="${panel.kepurl[i]}" class="d-block w-100 caruselkep" alt="...">
         </div>`   
         }
+    }
     }
 });
 
