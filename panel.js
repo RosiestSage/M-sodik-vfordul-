@@ -40,9 +40,29 @@ const Panelek = [
     
     "2024;Augusztus 20;Augusztus 20 sok mindennek a fordulója. Kenyér, Petiék meg az is hogy egy éve folyamatosan beszélünk. De ezen a napon mentünk el állatkertbe, ahol megnéztünk amit csak lehet, és hozzányúltunk amihez lehet. Nagyon cukik voltak a simogatósak, és te is nagyon cuki voltál ahogy az összes állatban megtaláltad a cukit és a szépet. Ezután kajáltunk a plázában, és volt szerencsénk találkozni, nem egy, nem kettő, hanem 3 osztálytársammal. Szerintem ez is egy emlékezetes randi volt.;kepek/2024/Aug 20/IMG_20240820_153804.jpg,kepek/2024/Aug 20/Messenger_creation_a76863ae-dbc1-4bfe-94a3-220a17824692.jpeg,kepek/2024/Aug 20/Messenger_creation_aab4fa8b-8652-4692-a5a1-4a4a5546e924.jpeg,kepek/2024/Aug 20/Messenger_creation_f954f1ff-a3bd-448d-bccc-e84bfbde4b6b.jpeg",
 
+    "2024;Augusztus 28;A nyár záró randi, ez csak azért is már különleges, mert végre kiraktuk a legót, ami még mindig egy nagyon aranyos programnak minősül. Picit nyomottan éreztem magam hogy ez az utolsó ottalvás nyáron, meg szar hogy vége lett, de szerintem szépen lezártuk.;kepek/2024/Aug 28/IMG_20240828_160903.jpg,kepek/2024/Aug 28/IMG_20240828_160908.jpg,kepek/2024/Aug 28/IMG_20240828_171206.jpg,kepek/2024/Aug 28/IMG_20240828_225418.jpg",
 
-    "2024;Augusztus 28;A nyár záró randi, ez csak azért is már különleges, mert végre kiraktuk a legót, ami még mindig egy nagyon aranyos programnak minősül. Picit nyomottan éreztem magam hogy ez az utolsó ottalvás nyáron, meg szar hogy vége lett, de szerintem szépen lezártuk.;kepek/2024/Aug 28/IMG_20240828_160903.jpg,kepek/2024/Aug 28/IMG_20240828_160908.jpg,kepek/2024/Aug 28/IMG_20240828_171206.jpg,kepek/2024/Aug 28/IMG_20240828_225418.jpg"
 
+
+
+    "2025;Október 5;Évfordulós randi;",
+
+    "2025;Újév;;",
+
+    "2025;Február 14;Bólya bál;",
+
+    "2025;Február 15;Böllérfeszt;",
+
+    "2025;Március 29;Hair;",
+
+    "2025;Május 1;Majális;",
+
+    "2025;Tábor;;",
+
+    "2025;Nyaralás a családommal;;",
+    
+    "2025;Esküvő;;"
 ]
 
 export default Panelek
+
