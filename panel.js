@@ -45,23 +45,23 @@ const Panelek = [
 
 
 
-    "2025;Október 5;Évfordulós randi;",
+    "2025;Október 5;Évfordulós randi;kepek/2025/Évforduló/IMG_20241005_125212.jpg,kepek/2025/Évforduló/IMG_20241005_125221.jpg,kepek/2025/Évforduló/IMG_20241005_125539.jpg,kepek/2025/Évforduló/IMG_20241005_135905.jpg",
 
-    "2025;Újév;;",
+    "2025;Újév;;kepek/2025/Újév/Messenger_creation_04475784-F70D-4204-95DC-E51E13279014.jpeg,kepek/2025/Újév/Messenger_creation_0A63D9F4-5F04-401D-BE52-E21847B42834.jpeg,kepek/2025/Újév/Messenger_creation_3622C0E5-3E6E-4EA2-9530-20FE1D66613C.jpeg,kepek/2025/Újév/Messenger_creation_55CBF6AA-2A6E-4975-BA4B-103E57D0C704.jpeg",
 
-    "2025;Február 14;Bólya bál;",
+    "2025;Február 14;Bólya bál;kepek/2025/Bólya_bál/Messenger_creation_0B37B168-3F10-448D-9DC9-B91BA15CA133.jpeg,kepek/2025/Bólya_bál/Messenger_creation_1143740807228103.jpeg,kepek/2025/Bólya_bál/Messenger_creation_168C36D3-35E6-4946-97FD-457128833BF5.jpg,kepek/2025/Bólya_bál/Messenger_creation_58805862-60AD-4746-9AE0-E850209476B2.jpg,kepek/2025/Bólya_bál/Messenger_creation_6EF3D724-AD43-4C72-897A-F1D023ACAB7E.jpg,kepek/2025/Bólya_bál/Messenger_creation_BDE81697-B775-48D5-89B5-3CB40A4E428B.jpeg",
 
-    "2025;Február 15;Böllérfeszt;",
+    "2025;Február 15;Böllérfeszt;kepek/2025/Böllérfeszt/IMG_20250215_135807.jpg,kepek/2025/Böllérfeszt/IMG_20250215_135813.jpg,kepek/2025/Böllérfeszt/Messenger_creation_891A0B2D-6445-4372-BD27-BE84059A20E8.jpg",
 
-    "2025;Március 29;Hair;",
+    "2025;Március 29;Hair;kepek/2025/Hair/IMG_20250329_185926.jpg,kepek/2025/Hair/IMG_20250329_185931.jpg,kepek/2025/Hair/Messenger_creation_993478672747311.jpeg",
 
-    "2025;Május 1;Majális;",
+    "2025;Május 1;Majális;kepek/2025/Majális/IMG_6098.jpg,kepek/2025/Majális/received_662306013300770.jpeg,kepek/2025/Majális/received_1195606815628484.jpeg",
 
-    "2025;Tábor;;",
+    "2025;Tábor;;kepek/2025/Tábor/Messenger_creation_B358DA94-6DEF-41A1-A51F-BF9B9FDC9617.jpeg",
 
-    "2025;Nyaralás a családommal;;",
+    "2025;Nyaralás a családommal;;kepek/2025/Nyaralás családommal/IMG_20250729_222553.jpg,kepek/2025/Nyaralás családommal/1759353429734.jpg,kepek/2025/Nyaralás családommal/1759353429768.jpg,kepek/2025/Nyaralás családommal/1759353429780.jpg,kepek/2025/Nyaralás családommal/1759353429791.jpg,kepek/2025/Nyaralás családommal/1759353429803.jpg,kepek/2025/Nyaralás családommal/1759353429814.jpg,kepek/2025/Nyaralás családommal/1759353429825.jpg,kepek/2025/Nyaralás családommal/1759353429837.jpg,kepek/2025/Nyaralás családommal/1759353429847.jpg,kepek/2025/Nyaralás családommal/1759353429860.jpg,kepek/2025/Nyaralás családommal/1759353429886.jpg,kepek/2025/Nyaralás családommal/1759353429907.jpg,kepek/2025/Nyaralás családommal/1759353429920.jpg",
     
-    "2025;Esküvő;;"
+    "2025;Esküvő;;kepek/2025/Esküvő/DSC_8685.jpg,kepek/2025/Esküvő/DSC_8948.jpg,kepek/2025/Esküvő/DSC_8998.jpg,kepek/2025/Esküvő/DSC_9086.jpg"
 ]
 
 export default Panelek

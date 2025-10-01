@@ -2,8 +2,9 @@
 import Panelek from "./panel.js"
 import {Panel} from "./panelclass.js"
 
+console.log(document.querySelector("body").clientHeight)
+
 let toltendo = []
-console.log(typeof(Panelek))
 Panelek.forEach(sor => {
     toltendo.push(new Panel(sor))
 });
@@ -46,12 +47,12 @@ toltendo.forEach(panel => {
     for (let i = 0 ; i < panel.kepurl.length; i++){
         if (i == 0){
             document.getElementById(`${index}kep`).innerHTML +=`<div class="carousel-item active">
-            <img  src="${panel.kepurl[i]}" class="d-block w-100 caruselkep" alt="...">
+            <img  src="${panel.kepurl[i]}" class="d-block caruselkep" alt="...">
         </div>`     
         }
         else{
             document.getElementById(`${index}kep`).innerHTML +=`<div class="carousel-item ">
-            <img  src="${panel.kepurl[i]}" class="d-block w-100 caruselkep" alt="...">
+            <img  src="${panel.kepurl[i]}" class="d-block caruselkep" alt="...">
         </div>`   
         }
     }

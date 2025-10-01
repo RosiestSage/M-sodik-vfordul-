@@ -12,7 +12,6 @@
 @media screen and (width > 1400px) {
 /* Fő oldal */
     body{
-        height: 100%;
         width: fit-content;
     }
     
@@ -207,7 +206,6 @@
 @media screen and (width > 700px ) { 
     
     body{
-        height: 100%;
         width: fit-content;
     }
     
@@ -452,7 +450,6 @@
 
 @media screen and (width <= 700px) {
     body{
-        height: 100%;
         width: 100%;
     
     }
