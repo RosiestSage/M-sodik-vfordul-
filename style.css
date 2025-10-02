@@ -5,13 +5,27 @@
 
 .carousel-item img{
     border-radius: 5%;
+    width: 100%;
 }
 
+.flex_carusel{
+    width: 30%;
+    flex: 50%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.flex-felosztas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 @media screen and (width > 1400px) {
 /* Fő oldal */
     body{
+        height: 100%;
         width: fit-content;
     }
     
@@ -206,6 +220,7 @@
 @media screen and (width > 700px ) { 
     
     body{
+        height: 100%;
         width: fit-content;
     }
     
@@ -348,8 +363,8 @@
     }
 
     .carousel-item img{
-        width: 40% !important;
         margin: 0 auto;
+        width: 100%;
     }
 
     div.col-sm-6{
@@ -432,14 +447,13 @@
         height: 0%;
     }
 
-    .carousel-control-next-icon{
-        /* border: 1px solid black; */
-        margin-left: -350%;
+    /* .carousel-control-next-icon{
+        border: 1px solid black; 
     }
     
+    
     .carousel-control-prev-icon{
-        margin-right: -350%;
-    }
+    } */
 
     .nemjo{
         height: 0%;
@@ -450,6 +464,7 @@
 
 @media screen and (width <= 700px) {
     body{
+        height: 100%;
         width: 100%;
     
     }
