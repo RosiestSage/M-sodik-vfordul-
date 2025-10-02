@@ -7,20 +7,38 @@ let hatterkepek = ["kepek/hatterképek/IMG_7654.JPG", "kepek/hatterképek/IMG_86
 
 let dochossz = document.querySelector("body").clientHeight
 console.log(dochossz)
-
-for(let i = 0; i < dochossz/10; i++){
-  if (i % 2 == 0){
-    console.log(i);
-    document.getElementById("hatterkep").innerHTML += `<div class="flexjobb24">
-      <img class="kepjobb" src="kepek/hatterképek/IMG_20231103_161910.jpg" alt="">
-    </div>`
+if (dochossz < 120){
+  for(let i = 0; i < dochossz/9; i++){
+    if (i % 2 == 0){
+      console.log(i);
+      document.getElementById("hatterkep").innerHTML += `<div class="flexjobb24">
+        <img class="kepjobb" src="kepek/hatterképek/IMG_20231103_161910.jpg" alt="">
+      </div>`
+    }
+    else{
+      console.log(i);
+      document.getElementById("hatterkep").innerHTML += `<div class="flexbal24 ">
+        <img class="kepbal" src="kepek/hatterképek/IMG_20231111_180336.jpg" alt="">
+      </div>`
+  
+    }
   }
-  else{
-    console.log(i);
-    document.getElementById("hatterkep").innerHTML += `<div class="flexbal24 ">
-      <img class="kepbal" src="kepek/hatterképek/IMG_20231111_180336.jpg" alt="">
-    </div>`
-
+}
+else{
+    for(let i = 0; i < dochossz /5; i++){
+    if (i % 2 == 0){
+      console.log(i);
+      document.getElementById("hatterkep").innerHTML += `<div class="flexjobb24">
+        <img class="kepjobb" src="kepek/hatterképek/IMG_20231103_161910.jpg" alt="">
+      </div>`
+    }
+    else{
+      console.log(i);
+      document.getElementById("hatterkep").innerHTML += `<div class="flexbal24 ">
+        <img class="kepbal" src="kepek/hatterképek/IMG_20231111_180336.jpg" alt="">
+      </div>`
+  
+    }
   }
 }
 
