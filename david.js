@@ -3,44 +3,44 @@
 // 9/11
 
 
-let hatterkepek = ["kepek/hatterképek/IMG_7654.JPG", "kepek/hatterképek/IMG_8641.JPG"]
+// let hatterkepek = ["kepek/hatterképek/IMG_7654.JPG", "kepek/hatterképek/IMG_8641.JPG"]
 
-let dochossz = document.querySelector("body").clientHeight
-console.log(dochossz)
-if (dochossz < 120){
-  for(let i = 0; i < dochossz/9; i++){
-    if (i % 2 == 0){
-      console.log(i);
-      document.getElementById("hatterkep").innerHTML += `<div class="flexjobb24">
-        <img class="kepjobb" src="kepek/hatterképek/IMG_20231103_161910.jpg" alt="">
-      </div>`
-    }
-    else{
-      console.log(i);
-      document.getElementById("hatterkep").innerHTML += `<div class="flexbal24 ">
-        <img class="kepbal" src="kepek/hatterképek/IMG_20231111_180336.jpg" alt="">
-      </div>`
+// let dochossz = document.querySelector("body").clientHeight
+// console.log(dochossz)
+// if (dochossz < 120){
+//   for(let i = 0; i < dochossz/9; i++){
+//     if (i % 2 == 0){
+//       console.log(i);
+//       document.getElementById("hatterkep").innerHTML += `<div class="flexjobb24">
+//         <img class="kepjobb" src="kepek/hatterképek/IMG_20231103_161910.jpg" alt="">
+//       </div>`
+//     }
+//     else{
+//       console.log(i);
+//       document.getElementById("hatterkep").innerHTML += `<div class="flexbal24 ">
+//         <img class="kepbal" src="kepek/hatterképek/IMG_20231111_180336.jpg" alt="">
+//       </div>`
   
-    }
-  }
-}
-else{
-    for(let i = 0; i < dochossz /5; i++){
-    if (i % 2 == 0){
-      console.log(i);
-      document.getElementById("hatterkep").innerHTML += `<div class="flexjobb24">
-        <img class="kepjobb" src="kepek/hatterképek/IMG_20231103_161910.jpg" alt="">
-      </div>`
-    }
-    else{
-      console.log(i);
-      document.getElementById("hatterkep").innerHTML += `<div class="flexbal24 ">
-        <img class="kepbal" src="kepek/hatterképek/IMG_20231111_180336.jpg" alt="">
-      </div>`
+//     }
+//   }
+// }
+// else{
+//     for(let i = 0; i < dochossz /5; i++){
+//     if (i % 2 == 0){
+//       console.log(i);
+//       document.getElementById("hatterkep").innerHTML += `<div class="flexjobb24">
+//         <img class="kepjobb" src="kepek/hatterképek/IMG_20231103_161910.jpg" alt="">
+//       </div>`
+//     }
+//     else{
+//       console.log(i);
+//       document.getElementById("hatterkep").innerHTML += `<div class="flexbal24 ">
+//         <img class="kepbal" src="kepek/hatterképek/IMG_20231111_180336.jpg" alt="">
+//       </div>`
   
-    }
-  }
-}
+//     }
+//   }
+// }
 
 
 
@@ -77,14 +77,7 @@ toltendo.forEach(panel => {
           <div class="carousel-inner" id="${index}kep">
       
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls${index}" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls${index}" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+
         </div>
     </div>
     </div>
@@ -102,7 +95,18 @@ toltendo.forEach(panel => {
             <img  src="${panel.kepurl[i]}" class="d-block h-100 caruselkep" alt="...">
         </div>`   
         }
-    }
+      }
+      if(panel.kepurl.length != 1
+      ){
+          document.getElementById(`carouselExampleControls${index}`).innerHTML += `          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls${index}" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls${index}" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>`
+      }
     }
 });
 

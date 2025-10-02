@@ -42,10 +42,10 @@ const Panelek = [
 
     "2024;Augusztus 28;A nyár záró randi, ez csak azért is már különleges, mert végre kiraktuk a legót, ami még mindig egy nagyon aranyos programnak minősül. Picit nyomottan éreztem magam hogy ez az utolsó ottalvás nyáron, meg szar hogy vége lett, de szerintem szépen lezártuk.;kepek/2024/Aug 28/IMG_20240828_160903.jpg,kepek/2024/Aug 28/IMG_20240828_160908.jpg,kepek/2024/Aug 28/IMG_20240828_171206.jpg,kepek/2024/Aug 28/IMG_20240828_225418.jpg",
 
+    '2024;Október 5;Hát nem ma volt az biztos, de azért még emlékszem. Emlékszem hogy már tavaly is eljátszottam a "nem mondom meg hova megyünk" kártyát és nagyon jól sült el. Nagyon cuki voltál a sok kis hal mellett és nagyon látványosak voltak az biztos. Egy felettébb jó ranid volt, ami örökre megmarad nekem;kepek/2025/Évforduló/IMG_20241005_125212.jpg,kepek/2025/Évforduló/IMG_20241005_125221.jpg,kepek/2025/Évforduló/IMG_20241005_125539.jpg,kepek/2025/Évforduló/IMG_20241005_135905.jpg',
 
 
 
-    '2025;Október 5;Hát nem ma volt az biztos, de azért még emlékszem. Emlékszem hogy már tavaly is eljátszottam a "nem mondom meg hova megyünk" kártyát és nagyon jól sült el. Nagyon cuki voltál a sok kis hal mellett és nagyon látványosak voltak az biztos. Egy felettébb jó ranid volt, ami örökre megmarad nekem;kepek/2025/Évforduló/IMG_20241005_125212.jpg,kepek/2025/Évforduló/IMG_20241005_125221.jpg,kepek/2025/Évforduló/IMG_20241005_125539.jpg,kepek/2025/Évforduló/IMG_20241005_135905.jpg',
 
     "2025;Újév; Újév #2..... Az előző újévnél sokat beszéltem arról hogy nem együtt kezdtük az évet, de együtt fejeztük be, viszont most tényleg együtt kezdtük és zártuk. Ez sokkal nagyobb keretek közt zajlott és több emberrel töltöttük, de megvolt a varázsa és én nagyon élveztem. Fura hogy azóta már ennyi idő eltelt, de erre is boldogan emlékezek vissza, mert szerintem ez is egy fantasztikus ikervározás volt. Sajnos magáról a történésekről sok képem nincs, de ennyim van.;kepek/2025/Újév/Messenger_creation_04475784-F70D-4204-95DC-E51E13279014.jpeg,kepek/2025/Újév/Messenger_creation_0A63D9F4-5F04-401D-BE52-E21847B42834.jpeg,kepek/2025/Újév/Messenger_creation_3622C0E5-3E6E-4EA2-9530-20FE1D66613C.jpeg,kepek/2025/Újév/Messenger_creation_55CBF6AA-2A6E-4975-BA4B-103E57D0C704.jpeg",
 
